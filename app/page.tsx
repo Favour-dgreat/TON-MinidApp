@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main className="p-4">
       {userData ? (
-        <div>
+        <div style={{color: 'white'}}>
           <h1 className="text-2xl font-bold">Welcome {userData.first_name}</h1>
           <p className="text-lg">Your id is: {userData.id}</p>
           <p className="text-lg">Your username is: {userData.username}</p>
